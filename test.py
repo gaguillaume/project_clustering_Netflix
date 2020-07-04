@@ -14,5 +14,4 @@ init_mixture, init_post = common.init(X, K, seed)
 print(naive_em.fill_matrix(X, init_mixture))
 
 EM_mixture, EM_post, EM_logvrais = naive_em.run(X, init_mixture, init_post)
-print(EM_logvrais) # --> -1138.890899687267
-
+print(EM_logvrais)
